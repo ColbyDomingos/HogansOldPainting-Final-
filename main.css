@@ -5,6 +5,8 @@ body {
   background-size: 100% 100%;
 
   color: violet;
+
+  text-decoration: none;
 }
 
 .title {
@@ -35,6 +37,8 @@ main {
   border: 5px solid violet;
 
   font-size: 20px;
+
+  text-decoration: none;
 }
 
 img {

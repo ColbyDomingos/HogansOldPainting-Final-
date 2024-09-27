@@ -104,6 +104,20 @@ a:visited {
   color: white;
 }
 
+input {
+  border-radius: 3px;
+  border: 2px solid violet;
+
+  background-color : #070707;
+
+  color: violet;
+}
+
+input:hover {
+  border-radius: 3px;
+  border: 2px solid purple;
+}
+
 
 /*  ---HERE DOWN IS ALL FOR NAVBAR--- */
 .navbar {

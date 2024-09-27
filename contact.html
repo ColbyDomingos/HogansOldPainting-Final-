@@ -38,14 +38,206 @@
         </nav>
     </div>
 
+    <br>
+
     <div class="title">
         <h1>Contact Us!</h1>
     </div>
 
     </header>
 
+    <main>
+
+        <br>
+        <img src="images/hogansbanner.png" alt="Hogan's Banner" width="600px" height="300px">
+        <br>
 
 
+        <!-- Hogan's Old Paintings - Contact Div separated between description and form and account creation.-->
+        <div class="description">
+        
+            <p>Address: 41315 West Hills Road</p>
+            <p>Phone: <a href="tel:1234567890">123-456-7890</a></p>
+            <p>Email: <a href="mailto:fake@email.com">fake@email.com</a></p>
+
+        </div>
+
+        <br>
+
+        <div class="description">
+
+            <h2>Form For Contact:</h2>
+
+            
+                <h2>Contact Us Form</h2>
+        
+                <form action="/submit" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                    
+                    <br>
+                    <br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@example.com">
+        
+                    <br>
+                    <br>
+        
+                    <label for="subject">Subject:</label><br>
+                    <input type="text" id="subject" name="subject" required><br><br>
+        
+                    <br>
+                    <br>
+        
+                    <label for="message">Personal Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                
+                    <br>
+                    <br>
+        
+                    <input type="submit" value="Submit">
+                    
+                    <input type="reset" value="Reset">
+        
+                </form>
+
+        </div>
+
+        <br>
+
+        <div class="description">
+
+            <h2>Want to take it further?</h2>
+            <h1>Create an Account with us!</h1>
+
+            <form action="/submit" method="post">
+
+                <!-- Label and username input field -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+
+                <br>
+                <br>
+
+                <!-- Label and password input field -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            
+                <br>
+                <br>
+
+                <!-- Label and email input field -->
+                <label for="email">Email:</label>
+                <input type="email" id="useremail" name="useremail" placeholder="example@example.com">
+
+                <br>
+                <br>
+
+                <!-- Label and age input field -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120">
+
+                <br>
+                <br>
+
+                <!-- Radio buttons for gender selection -->
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+
+                <label for="neither">Neither</label>
+                <input type="radio" id="neither" name="gender" value="neither">
+
+                <br>
+                <br>
+
+                 <!-- Checkbox for newsletter subscription -->
+                <label for="subscribe">Subscribe to newsletter</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+                <br>
+                <br>
+
+                <!-- Dropdown select for country selection -->
+                <label for="country">Country</label> 
+                <select id="country" name="country">
+
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="panama">Panama</option>
+                    <option value="china">China</option>
+                    <option value="india">India</option>
+                    <option value="japan">Japan</option>
+                    <option value="sweden">Sweden</option>
+                    <option value="denmark">Denmark</option>
+                    <option value="iceland">Iceland</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="jamaica">Jamaica</option>
+                    <option value="australia">Australia</option>
+                    <option value="newzealand">New Zealand</option>
+                    <option value="unitedkingdom">United Kingdom</option>
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+
+                </select>
+
+                <br>
+                <br>
+
+                <!-- Textarea for additional comments -->
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        
+                <br>
+                <br>
+
+                <!-- File input for uploading files -->
+                <label for="file">Upload your photo:</label>
+                <input type="file" id="file" name="file">
+
+                <br>
+                <br>
+
+                <!-- Range input for selecting a value within a range -->
+                <label for="love">Love of history:</label>
+                <input type="range" id="love" name="love" min="0" max="10">
+
+                <br>
+                <br>
+
+                <!-- Date input for selecting date for age verification-->
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" id="birthdate" name="birthdate">
+
+                <br>
+                <br>
+
+                <!-- Color input for selecting a favorite color -->
+                <label for="favcolor">Favorite Color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+
+                <br>
+                <br>
+
+                <input type="submit" value="Submit">
+            
+                <input type="reset" value="Reset">
+
+            </form>
+
+            <br>
+            <br>
+
+            <a href="#top">Back to top</a>
+        
+        </div>
+
+
+    </main>
 
     <footer>
         <p>Copyright 2024 Hogan's Old Paintings | All Rights Reserved | <a href="https://github.com/ColbyDomingos">Github</a></p>

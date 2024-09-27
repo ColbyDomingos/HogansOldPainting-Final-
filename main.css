@@ -87,6 +87,11 @@ img {
   border-radius: 6px;
 }
 
+video{
+  border: 5px solid violet;
+  border-radius: 6px;
+}
+
 #links {
   list-style-type: none;
 

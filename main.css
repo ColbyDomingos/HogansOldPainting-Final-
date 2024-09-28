@@ -1,3 +1,5 @@
+/* Styling for all pages */
+
 body {
   background-image: url('images/pinkbackground.jpg');
   background-repeat: no-repeat;
@@ -82,6 +84,8 @@ main {
   }
 }
 
+
+/* Here is for images and video borders */
 img {
   border: 5px solid violet;
   border-radius: 6px;
@@ -92,6 +96,8 @@ video{
   border-radius: 6px;
 }
 
+
+/* Specific Id for Links */
 #links {
   list-style-type: none;
 
